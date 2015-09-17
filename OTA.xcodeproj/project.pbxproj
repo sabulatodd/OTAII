@@ -13,19 +13,11 @@
 		DDE075A31BAB4FB200B8CCA8 /* OTA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDE075A11BAB4FB200B8CCA8 /* OTA.xcdatamodeld */; };
 		DDE075A51BAB4FB200B8CCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE075A41BAB4FB200B8CCA8 /* Assets.xcassets */; };
 		DDE075A81BAB4FB200B8CCA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE075A61BAB4FB200B8CCA8 /* LaunchScreen.storyboard */; };
-		DDE075B31BAB4FB200B8CCA8 /* OTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE075B21BAB4FB200B8CCA8 /* OTATests.swift */; };
 		DDE075BE1BAB4FB200B8CCA8 /* OTAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE075BD1BAB4FB200B8CCA8 /* OTAUITests.swift */; };
 		DDE075CC1BAB505B00B8CCA8 /* launchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE075CB1BAB505B00B8CCA8 /* launchLogo.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DDE075AF1BAB4FB200B8CCA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DDE0758F1BAB4FB200B8CCA8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DDE075961BAB4FB200B8CCA8;
-			remoteInfo = OTA;
-		};
 		DDE075BA1BAB4FB200B8CCA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DDE0758F1BAB4FB200B8CCA8 /* Project object */;
@@ -44,7 +36,6 @@
 		DDE075A41BAB4FB200B8CCA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDE075A71BAB4FB200B8CCA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDE075A91BAB4FB200B8CCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDE075AE1BAB4FB200B8CCA8 /* OTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE075B21BAB4FB200B8CCA8 /* OTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTATests.swift; sourceTree = "<group>"; };
 		DDE075B41BAB4FB200B8CCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDE075B91BAB4FB200B8CCA8 /* OTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,13 +46,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		DDE075941BAB4FB200B8CCA8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDE075AB1BAB4FB200B8CCA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				DDE075971BAB4FB200B8CCA8 /* OTA.app */,
-				DDE075AE1BAB4FB200B8CCA8 /* OTATests.xctest */,
 				DDE075B91BAB4FB200B8CCA8 /* OTAUITests.xctest */,
 			);
 			name = Products;
@@ -151,24 +134,6 @@
 			productReference = DDE075971BAB4FB200B8CCA8 /* OTA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DDE075AD1BAB4FB200B8CCA8 /* OTATests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DDE075C51BAB4FB200B8CCA8 /* Build configuration list for PBXNativeTarget "OTATests" */;
-			buildPhases = (
-				DDE075AA1BAB4FB200B8CCA8 /* Sources */,
-				DDE075AB1BAB4FB200B8CCA8 /* Frameworks */,
-				DDE075AC1BAB4FB200B8CCA8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DDE075B01BAB4FB200B8CCA8 /* PBXTargetDependency */,
-			);
-			name = OTATests;
-			productName = OTATests;
-			productReference = DDE075AE1BAB4FB200B8CCA8 /* OTATests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		DDE075B81BAB4FB200B8CCA8 /* OTAUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDE075C81BAB4FB200B8CCA8 /* Build configuration list for PBXNativeTarget "OTAUITests" */;
@@ -199,10 +164,6 @@
 					DDE075961BAB4FB200B8CCA8 = {
 						CreatedOnToolsVersion = 7.0;
 					};
-					DDE075AD1BAB4FB200B8CCA8 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = DDE075961BAB4FB200B8CCA8;
-					};
 					DDE075B81BAB4FB200B8CCA8 = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = DDE075961BAB4FB200B8CCA8;
@@ -223,7 +184,6 @@
 			projectRoot = "";
 			targets = (
 				DDE075961BAB4FB200B8CCA8 /* OTA */,
-				DDE075AD1BAB4FB200B8CCA8 /* OTATests */,
 				DDE075B81BAB4FB200B8CCA8 /* OTAUITests */,
 			);
 		};
@@ -238,13 +198,6 @@
 				DDE075CC1BAB505B00B8CCA8 /* launchLogo.png in Resources */,
 				DDE075A51BAB4FB200B8CCA8 /* Assets.xcassets in Resources */,
 				DDE075A01BAB4FB200B8CCA8 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDE075AC1BAB4FB200B8CCA8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +221,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDE075AA1BAB4FB200B8CCA8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDE075B31BAB4FB200B8CCA8 /* OTATests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DDE075B51BAB4FB200B8CCA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,11 +232,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DDE075B01BAB4FB200B8CCA8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DDE075961BAB4FB200B8CCA8 /* OTA */;
-			targetProxy = DDE075AF1BAB4FB200B8CCA8 /* PBXContainerItemProxy */;
-		};
 		DDE075BB1BAB4FB200B8CCA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DDE075961BAB4FB200B8CCA8 /* OTA */;
@@ -424,30 +364,6 @@
 			};
 			name = Release;
 		};
-		DDE075C61BAB4FB200B8CCA8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = OTATests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TheUniversityofIowa.OTATests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTA.app/OTA";
-			};
-			name = Debug;
-		};
-		DDE075C71BAB4FB200B8CCA8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = OTATests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TheUniversityofIowa.OTATests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTA.app/OTA";
-			};
-			name = Release;
-		};
 		DDE075C91BAB4FB200B8CCA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -491,14 +407,7 @@
 				DDE075C41BAB4FB200B8CCA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		DDE075C51BAB4FB200B8CCA8 /* Build configuration list for PBXNativeTarget "OTATests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDE075C61BAB4FB200B8CCA8 /* Debug */,
-				DDE075C71BAB4FB200B8CCA8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDE075C81BAB4FB200B8CCA8 /* Build configuration list for PBXNativeTarget "OTAUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +416,7 @@
 				DDE075CA1BAB4FB200B8CCA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
