@@ -67,7 +67,6 @@
 			children = (
 				DDE075991BAB4FB200B8CCA8 /* OTA */,
 				DDE075B11BAB4FB200B8CCA8 /* OTATests */,
-				DDE075BC1BAB4FB200B8CCA8 /* OTAUITests */,
 				DDE075981BAB4FB200B8CCA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +91,7 @@
 				DDE075CB1BAB505B00B8CCA8 /* launchLogo.png */,
 				DDE075A91BAB4FB200B8CCA8 /* Info.plist */,
 				DDE075A11BAB4FB200B8CCA8 /* OTA.xcdatamodeld */,
+				DDE075BC1BAB4FB200B8CCA8 /* OTAUITests */,
 			);
 			path = OTA;
 			sourceTree = "<group>";
@@ -112,7 +112,7 @@
 				DDE075BF1BAB4FB200B8CCA8 /* Info.plist */,
 			);
 			path = OTAUITests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
