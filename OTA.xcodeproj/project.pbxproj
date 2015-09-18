@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD9F9BF81BAB883F00022D2E /* AboutInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9F9BF71BAB883F00022D2E /* AboutInfo.png */; settings = {ASSET_TAGS = (); }; };
+		DD9F9BFA1BAB8D7D00022D2E /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9F9BF91BAB8D7D00022D2E /* DismissSegue.swift */; settings = {ASSET_TAGS = (); }; };
 		DDE0759B1BAB4FB200B8CCA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */; };
 		DDE0759D1BAB4FB200B8CCA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */; };
 		DDE075A01BAB4FB200B8CCA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE0759E1BAB4FB200B8CCA8 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		DD9F9BF71BAB883F00022D2E /* AboutInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutInfo.png; sourceTree = "<group>"; };
+		DD9F9BF91BAB8D7D00022D2E /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
 		DDE075971BAB4FB200B8CCA8 /* OTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */,
 				DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */,
+				DD9F9BF91BAB8D7D00022D2E /* DismissSegue.swift */,
 				DDE0759E1BAB4FB200B8CCA8 /* Main.storyboard */,
 				DDE075A41BAB4FB200B8CCA8 /* Assets.xcassets */,
 				DDE075A61BAB4FB200B8CCA8 /* LaunchScreen.storyboard */,
@@ -221,6 +224,7 @@
 			files = (
 				DDE0759D1BAB4FB200B8CCA8 /* ViewController.swift in Sources */,
 				DDE075A31BAB4FB200B8CCA8 /* OTA.xcdatamodeld in Sources */,
+				DD9F9BFA1BAB8D7D00022D2E /* DismissSegue.swift in Sources */,
 				DDE0759B1BAB4FB200B8CCA8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
