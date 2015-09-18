@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD9F9BF81BAB883F00022D2E /* AboutInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9F9BF71BAB883F00022D2E /* AboutInfo.png */; settings = {ASSET_TAGS = (); }; };
 		DDE0759B1BAB4FB200B8CCA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */; };
 		DDE0759D1BAB4FB200B8CCA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */; };
 		DDE075A01BAB4FB200B8CCA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE0759E1BAB4FB200B8CCA8 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD9F9BF71BAB883F00022D2E /* AboutInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutInfo.png; sourceTree = "<group>"; };
 		DDE075971BAB4FB200B8CCA8 /* OTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				DDE075A41BAB4FB200B8CCA8 /* Assets.xcassets */,
 				DDE075A61BAB4FB200B8CCA8 /* LaunchScreen.storyboard */,
 				DDE075CB1BAB505B00B8CCA8 /* launchLogo.png */,
+				DD9F9BF71BAB883F00022D2E /* AboutInfo.png */,
 				DDE075A91BAB4FB200B8CCA8 /* Info.plist */,
 				DDE075A11BAB4FB200B8CCA8 /* OTA.xcdatamodeld */,
 				DDE075BC1BAB4FB200B8CCA8 /* OTAUITests */,
@@ -196,6 +199,7 @@
 			files = (
 				DDE075A81BAB4FB200B8CCA8 /* LaunchScreen.storyboard in Resources */,
 				DDE075CC1BAB505B00B8CCA8 /* launchLogo.png in Resources */,
+				DD9F9BF81BAB883F00022D2E /* AboutInfo.png in Resources */,
 				DDE075A51BAB4FB200B8CCA8 /* Assets.xcassets in Resources */,
 				DDE075A01BAB4FB200B8CCA8 /* Main.storyboard in Resources */,
 			);
