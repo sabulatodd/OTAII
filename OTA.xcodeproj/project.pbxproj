@@ -15,7 +15,6 @@
 		DDE075A31BAB4FB200B8CCA8 /* OTA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDE075A11BAB4FB200B8CCA8 /* OTA.xcdatamodeld */; };
 		DDE075A51BAB4FB200B8CCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE075A41BAB4FB200B8CCA8 /* Assets.xcassets */; };
 		DDE075A81BAB4FB200B8CCA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE075A61BAB4FB200B8CCA8 /* LaunchScreen.storyboard */; };
-		DDE075BE1BAB4FB200B8CCA8 /* OTAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE075BD1BAB4FB200B8CCA8 /* OTAUITests.swift */; };
 		DDE075CC1BAB505B00B8CCA8 /* launchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE075CB1BAB505B00B8CCA8 /* launchLogo.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -43,8 +42,6 @@
 		DDE075B21BAB4FB200B8CCA8 /* OTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTATests.swift; sourceTree = "<group>"; };
 		DDE075B41BAB4FB200B8CCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDE075B91BAB4FB200B8CCA8 /* OTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDE075BD1BAB4FB200B8CCA8 /* OTAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTAUITests.swift; sourceTree = "<group>"; };
-		DDE075BF1BAB4FB200B8CCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDE075CB1BAB505B00B8CCA8 /* launchLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +94,6 @@
 				DD9F9BF71BAB883F00022D2E /* AboutInfo.png */,
 				DDE075A91BAB4FB200B8CCA8 /* Info.plist */,
 				DDE075A11BAB4FB200B8CCA8 /* OTA.xcdatamodeld */,
-				DDE075BC1BAB4FB200B8CCA8 /* OTAUITests */,
 			);
 			path = OTA;
 			sourceTree = "<group>";
@@ -110,15 +106,6 @@
 			);
 			path = OTATests;
 			sourceTree = "<group>";
-		};
-		DDE075BC1BAB4FB200B8CCA8 /* OTAUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DDE075BD1BAB4FB200B8CCA8 /* OTAUITests.swift */,
-				DDE075BF1BAB4FB200B8CCA8 /* Info.plist */,
-			);
-			path = OTAUITests;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -233,7 +220,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE075BE1BAB4FB200B8CCA8 /* OTAUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

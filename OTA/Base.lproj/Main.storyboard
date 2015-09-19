@@ -128,9 +128,6 @@
                                 <rect key="frame" x="274" y="377" width="57" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Done"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="Fc1-HP-InG"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -151,7 +148,4 @@
         <image name="AboutInfo.png" width="400" height="168"/>
         <image name="launchLogo.png" width="400" height="168"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="gSO-GE-pcE"/>
-    </inferredMetricsTieBreakers>
 </document>
