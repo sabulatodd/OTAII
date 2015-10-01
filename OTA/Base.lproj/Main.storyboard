@@ -289,10 +289,10 @@
             </objects>
             <point key="canvasLocation" x="274" y="-1207"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--ViewController-->
         <scene sceneID="BjP-GH-4dT">
             <objects>
-                <tabBarController modalTransitionStyle="crossDissolve" id="QJD-5i-Os6" sceneMemberID="viewController">
+                <tabBarController title="ViewController" modalTransitionStyle="crossDissolve" id="QJD-5i-Os6" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="5S2-0s-Fgy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
