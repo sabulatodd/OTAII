@@ -10,7 +10,7 @@ import UIKit
 
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITabBarControllerDelegate {
     
     @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue){
         
