@@ -113,7 +113,7 @@
                 <tabBarController title="BaseTabBarController" automaticallyAdjustsScrollViewInsets="NO" id="7Xd-Dx-gGf" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="UGx-bs-deo">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="JR7-C8-mjU">
+                        <barButtonItem key="rightBarButtonItem" id="JR7-C8-mjU">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="5wg-8M-zNX">
                                 <rect key="frame" x="558" y="11" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
