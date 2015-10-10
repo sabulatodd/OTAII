@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD2A77FB1BC975CA00E9973D /* OrtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A77FA1BC975CA00E9973D /* OrtViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		DD9F9BF81BAB883F00022D2E /* AboutInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9F9BF71BAB883F00022D2E /* AboutInfo.png */; settings = {ASSET_TAGS = (); }; };
 		DDE0759B1BAB4FB200B8CCA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */; };
 		DDE0759D1BAB4FB200B8CCA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD2A77FA1BC975CA00E9973D /* OrtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrtViewController.swift; sourceTree = "<group>"; };
 		DD9F9BF71BAB883F00022D2E /* AboutInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutInfo.png; sourceTree = "<group>"; };
 		DDE075971BAB4FB200B8CCA8 /* OTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */,
+				DD2A77FA1BC975CA00E9973D /* OrtViewController.swift */,
 				DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */,
 				DDE0759E1BAB4FB200B8CCA8 /* Main.storyboard */,
 				DDE075A41BAB4FB200B8CCA8 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 		DDE0758F1BAB4FB200B8CCA8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Todd Papke";
 				TargetAttributes = {
@@ -208,6 +212,7 @@
 			files = (
 				DDE0759D1BAB4FB200B8CCA8 /* ViewController.swift in Sources */,
 				DDE075A31BAB4FB200B8CCA8 /* OTA.xcdatamodeld in Sources */,
+				DD2A77FB1BC975CA00E9973D /* OrtViewController.swift in Sources */,
 				DDE0759B1BAB4FB200B8CCA8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,10 +341,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OTA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheUniversityofIowa.OTA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -347,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OTA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheUniversityofIowa.OTA;
