@@ -89,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="-8" y="-318"/>
         </scene>
-        <!--OrtViewController-->
+        <!--ORT Score-->
         <scene sceneID="Fah-96-2ic">
             <objects>
-                <viewController title="OrtViewController" id="zNY-rH-eiC" customClass="OrtViewController" customModule="OTA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="ORT Score" id="zNY-rH-eiC" customClass="OrtViewController" customModule="OTA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AEl-iI-RiJ"/>
                         <viewControllerLayoutGuide type="bottom" id="YRT-b9-fd2"/>
