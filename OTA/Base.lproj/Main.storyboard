@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TAo-CI-c6d">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TAo-CI-c6d">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -19,7 +19,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZkQ-qA-xdb">
                                 <rect key="frame" x="144" y="235" width="313" height="131"/>
-                                <animations/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="313" id="YST-OV-sdH"/>
@@ -28,7 +27,6 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="San-a0-Z4X">
                                 <rect key="frame" x="0.0" y="0.0" width="598" height="600"/>
-                                <animations/>
                                 <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -37,7 +35,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ZkQ-qA-xdb" firstAttribute="centerX" secondItem="chz-TV-OSe" secondAttribute="centerX" constant="-82.5" id="2TF-nl-TuS"/>
@@ -73,11 +70,12 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutInfo.png" translatesAutoresizingMaskIntoConstraints="NO" id="4H4-cZ-qP4">
                                 <rect key="frame" x="100" y="216" width="400" height="168"/>
-                                <animations/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pej-bF-ujv">
+                                <rect key="frame" x="180" y="399" width="240" height="128"/>
+                            </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4H4-cZ-qP4" firstAttribute="centerY" secondItem="ZLX-MP-UOp" secondAttribute="centerY" id="RcY-qx-O4H"/>
@@ -134,7 +132,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Y5f-r8-UR7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -166,7 +163,6 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="5wg-8M-zNX">
                                 <rect key="frame" x="558" y="11" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
                                 <color key="tintColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47843137254901963" alpha="1" colorSpace="calibratedRGB"/>
@@ -179,7 +175,6 @@
                     </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="QSg-IX-MHO">
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -207,7 +202,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.15000000596046448" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="iOu-FC-gcg">
                                 <rect key="frame" x="144" y="235" width="313" height="131"/>
-                                <animations/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="313" id="xeE-Sh-dNr"/>
@@ -215,7 +209,6 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="iOu-FC-gcg" firstAttribute="centerX" secondItem="DPD-hq-ukT" secondAttribute="centerX" id="OSC-HS-FPd"/>
@@ -242,7 +235,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.15000000596046448" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="bmK-eQ-k1N">
                                 <rect key="frame" x="144" y="235" width="313" height="131"/>
-                                <animations/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="313" id="KJp-vB-V2M"/>
@@ -250,7 +242,6 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bmK-eQ-k1N" firstAttribute="centerX" secondItem="8ab-ng-oSn" secondAttribute="centerX" id="AF2-XT-4Mx"/>
@@ -266,7 +257,7 @@
         <!--Medications-->
         <scene sceneID="Hgi-la-M9e">
             <objects>
-                <viewController title="Medications" id="LUC-tH-V0M" sceneMemberID="viewController">
+                <viewController title="Medications" id="LUC-tH-V0M" customClass="MedicationsViewController" customModule="OTA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XeL-bE-A7r"/>
                         <viewControllerLayoutGuide type="bottom" id="WZR-c4-aPM"/>
@@ -277,7 +268,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.15000000596046448" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="rsv-H9-Dy8">
                                 <rect key="frame" x="144" y="234" width="313" height="131"/>
-                                <animations/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="131" id="5TE-g4-WCA"/>
@@ -287,7 +277,6 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="rsv-H9-Dy8" firstAttribute="centerY" secondItem="dzc-st-0RJ" secondAttribute="centerY" id="KbV-Y1-hW7"/>
@@ -314,7 +303,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.15000000596046448" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="0yZ-Tn-f1h">
                                 <rect key="frame" x="144" y="235" width="313" height="131"/>
-                                <animations/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="131" id="9hX-d6-6sm"/>
@@ -322,7 +310,6 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="0yZ-Tn-f1h" firstAttribute="centerX" secondItem="eny-3l-IDM" secondAttribute="centerX" id="MBw-Fq-pTI"/>

@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD2A77FB1BC975CA00E9973D /* OrtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A77FA1BC975CA00E9973D /* OrtViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		DD9F9BF81BAB883F00022D2E /* AboutInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9F9BF71BAB883F00022D2E /* AboutInfo.png */; settings = {ASSET_TAGS = (); }; };
+		DD19FDF61C29E50300662030 /* PainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19FDF51C29E50300662030 /* PainViewController.swift */; };
+		DD19FDFA1C29E54100662030 /* SocialSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19FDF91C29E54100662030 /* SocialSupportViewController.swift */; };
+		DD19FDFC1C29E55900662030 /* MedicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19FDFB1C29E55900662030 /* MedicationsViewController.swift */; };
+		DD2A77FB1BC975CA00E9973D /* OrtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A77FA1BC975CA00E9973D /* OrtViewController.swift */; };
+		DD9F9BF81BAB883F00022D2E /* AboutInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9F9BF71BAB883F00022D2E /* AboutInfo.png */; };
 		DDE0759B1BAB4FB200B8CCA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */; };
 		DDE0759D1BAB4FB200B8CCA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */; };
 		DDE075A01BAB4FB200B8CCA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE0759E1BAB4FB200B8CCA8 /* Main.storyboard */; };
 		DDE075A31BAB4FB200B8CCA8 /* OTA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDE075A11BAB4FB200B8CCA8 /* OTA.xcdatamodeld */; };
 		DDE075A51BAB4FB200B8CCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE075A41BAB4FB200B8CCA8 /* Assets.xcassets */; };
 		DDE075A81BAB4FB200B8CCA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE075A61BAB4FB200B8CCA8 /* LaunchScreen.storyboard */; };
-		DDE075CC1BAB505B00B8CCA8 /* launchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE075CB1BAB505B00B8CCA8 /* launchLogo.png */; settings = {ASSET_TAGS = (); }; };
+		DDE075CC1BAB505B00B8CCA8 /* launchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE075CB1BAB505B00B8CCA8 /* launchLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD19FDF51C29E50300662030 /* PainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainViewController.swift; sourceTree = "<group>"; };
+		DD19FDF91C29E54100662030 /* SocialSupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialSupportViewController.swift; sourceTree = "<group>"; };
+		DD19FDFB1C29E55900662030 /* MedicationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationsViewController.swift; sourceTree = "<group>"; };
 		DD2A77FA1BC975CA00E9973D /* OrtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrtViewController.swift; sourceTree = "<group>"; };
 		DD9F9BF71BAB883F00022D2E /* AboutInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutInfo.png; sourceTree = "<group>"; };
 		DDE075971BAB4FB200B8CCA8 /* OTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +92,9 @@
 			children = (
 				DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */,
 				DD2A77FA1BC975CA00E9973D /* OrtViewController.swift */,
+				DD19FDF91C29E54100662030 /* SocialSupportViewController.swift */,
+				DD19FDFB1C29E55900662030 /* MedicationsViewController.swift */,
+				DD19FDF51C29E50300662030 /* PainViewController.swift */,
 				DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */,
 				DDE0759E1BAB4FB200B8CCA8 /* Main.storyboard */,
 				DDE075A41BAB4FB200B8CCA8 /* Assets.xcassets */,
@@ -157,6 +166,7 @@
 				TargetAttributes = {
 					DDE075961BAB4FB200B8CCA8 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9XWB995P9M;
 					};
 					DDE075B81BAB4FB200B8CCA8 = {
 						CreatedOnToolsVersion = 7.0;
@@ -210,7 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD19FDFC1C29E55900662030 /* MedicationsViewController.swift in Sources */,
+				DD19FDFA1C29E54100662030 /* SocialSupportViewController.swift in Sources */,
 				DDE0759D1BAB4FB200B8CCA8 /* ViewController.swift in Sources */,
+				DD19FDF61C29E50300662030 /* PainViewController.swift in Sources */,
 				DDE075A31BAB4FB200B8CCA8 /* OTA.xcdatamodeld in Sources */,
 				DD2A77FB1BC975CA00E9973D /* OrtViewController.swift in Sources */,
 				DDE0759B1BAB4FB200B8CCA8 /* AppDelegate.swift in Sources */,
@@ -271,7 +284,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Papke (38GUJR5LG9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -293,6 +306,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "411a1d5e-6f58-4907-901f-6dc9351bddb2";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,7 +330,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -331,6 +345,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "411a1d5e-6f58-4907-901f-6dc9351bddb2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -342,10 +357,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OTA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheUniversityofIowa.OTA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -355,16 +373,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OTA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheUniversityofIowa.OTA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		DDE075C91BAB4FB200B8CCA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = "Version 1.0";
 				INFOPLIST_FILE = OTAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheUniversityofIowa.OTAUITests;
@@ -377,6 +399,7 @@
 		DDE075CA1BAB4FB200B8CCA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = "Version 1.0";
 				INFOPLIST_FILE = OTAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheUniversityofIowa.OTAUITests;
