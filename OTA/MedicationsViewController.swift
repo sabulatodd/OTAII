@@ -22,12 +22,12 @@ class MedicationsViewController: UIViewController{
     
     func webViewDidStartLoad(webView : UIWebView) {
         //UIApplication.sharedApplication().networkActivityIndicatorVisible = true
-        print("AA")
+       
     }
     
     func webViewDidFinishLoad(webView : UIWebView) {
         //UIApplication.sharedApplication().networkActivityIndicatorVisible = false
-        print("MedicationsView")
+        //print("MedicationsView")
     }
 }
 

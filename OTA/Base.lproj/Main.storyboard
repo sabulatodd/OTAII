@@ -191,7 +191,7 @@
         <!--Pain-->
         <scene sceneID="PQR-ao-AwN">
             <objects>
-                <viewController title="Pain" id="dLK-3t-wSq" sceneMemberID="viewController">
+                <viewController title="Pain" id="dLK-3t-wSq" customClass="PainViewController" customModule="OTA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="plO-CD-8mS"/>
                         <viewControllerLayoutGuide type="bottom" id="ydE-m5-dnT"/>
@@ -224,7 +224,7 @@
         <!--Social System-->
         <scene sceneID="Nuk-sv-VLZ">
             <objects>
-                <viewController title="Social System" id="97X-Nu-i06" sceneMemberID="viewController">
+                <viewController title="Social System" id="97X-Nu-i06" customClass="SocialSupportViewController" customModule="OTA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wXH-2c-OCI"/>
                         <viewControllerLayoutGuide type="bottom" id="bHX-b6-Yus"/>
@@ -292,7 +292,7 @@
         <!--SubstanceUse-->
         <scene sceneID="7o0-FI-fBa">
             <objects>
-                <viewController title="SubstanceUse" id="pp9-vp-Wtx" sceneMemberID="viewController">
+                <viewController title="SubstanceUse" id="pp9-vp-Wtx" customClass="SubstanceUseViewController" customModule="OTA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hyx-dk-QWa"/>
                         <viewControllerLayoutGuide type="bottom" id="uug-8k-38n"/>

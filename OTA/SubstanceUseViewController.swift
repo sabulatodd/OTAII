@@ -10,18 +10,18 @@ import UIKit
 
 
 
-class SocialSupportViewController: UIViewController{
+class SubstanceUseViewController: UIViewController{
     
     
     override func viewDidLoad() {
+         print("SubstanceUseViewController")
         super.viewDidLoad()
-        print("SocialSupportViewc")
         //load initial URL
             }
     
     func webViewDidStartLoad(webView : UIWebView) {
         //UIApplication.sharedApplication().networkActivityIndicatorVisible = true
-       
+        
     }
     
     func webViewDidFinishLoad(webView : UIWebView) {
