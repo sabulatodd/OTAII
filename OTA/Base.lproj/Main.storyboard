@@ -122,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0vZ-rs-aj2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-771" y="-286"/>
+            <point key="canvasLocation" x="-735" y="-347"/>
         </scene>
         <!--BaseNavController-->
         <scene sceneID="asU-Zh-Kgd">
@@ -149,13 +149,16 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="UGx-bs-deo">
                         <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" id="kea-X7-Spg">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cp2-NR-kkG">
+                        <barButtonItem key="leftBarButtonItem" style="done" id="mPR-72-w5O">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GFn-ja-fEU">
                                 <rect key="frame" x="20" y="7" width="133" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Recommendations">
                                     <color key="titleColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Lb8-Ek-5Jz" kind="show" id="Kk3-6f-wiR"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K0G-jk-fY0">
@@ -195,7 +198,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5qQ-47-ZrJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="156" y="513"/>
+            <point key="canvasLocation" x="59" y="535"/>
         </scene>
         <!--Pain-->
         <scene sceneID="PQR-ao-AwN">
@@ -330,6 +333,29 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kSE-rU-BYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1542" y="513"/>
+        </scene>
+        <!--Recommendations-->
+        <scene sceneID="iBK-z2-KJ6">
+            <objects>
+                <viewController title="Recommendations" id="Lb8-Ek-5Jz" customClass="RecommendationsViewController" customModule="OTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mmE-zZ-GGC"/>
+                        <viewControllerLayoutGuide type="bottom" id="VMo-8j-PYm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lct-zE-I5X">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UeH-uX-KTA">
+                                <rect key="frame" x="162" y="230" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qPT-WA-ErJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26" y="-681"/>
         </scene>
     </scenes>
     <resources>
