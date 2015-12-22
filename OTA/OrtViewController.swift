@@ -26,12 +26,10 @@ class OrtViewController: UIViewController, UIWebViewDelegate{
     
     func webViewDidStartLoad(webView : UIWebView) {
         //UIApplication.sharedApplication().networkActivityIndicatorVisible = true
-        print("AA")
     }
     
     func webViewDidFinishLoad(webView : UIWebView) {
         //UIApplication.sharedApplication().networkActivityIndicatorVisible = false
-        print("BB")
     }
 }
 

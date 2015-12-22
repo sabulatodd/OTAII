@@ -18,15 +18,5 @@ class SocialSupportViewController: UIViewController{
         print("SocialSupportViewc")
         //load initial URL
             }
-    
-    func webViewDidStartLoad(webView : UIWebView) {
-        //UIApplication.sharedApplication().networkActivityIndicatorVisible = true
-       
-    }
-    
-    func webViewDidFinishLoad(webView : UIWebView) {
-        //UIApplication.sharedApplication().networkActivityIndicatorVisible = false
-        
-    }
-}
+   }
 

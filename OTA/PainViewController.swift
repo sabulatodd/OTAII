@@ -17,14 +17,5 @@ class PainViewController: UIViewController{
         print("PainView")
           }
     
-    func webViewDidStartLoad(webView : UIWebView) {
-        //UIApplication.sharedApplication().networkActivityIndicatorVisible = true
-        
-    }
-    
-    func webViewDidFinishLoad(webView : UIWebView) {
-        //UIApplication.sharedApplication().networkActivityIndicatorVisible = false
-        
-    }
-}
+   }
 
