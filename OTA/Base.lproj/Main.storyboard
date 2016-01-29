@@ -101,7 +101,6 @@
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="92d-Is-4EU">
                                 <rect key="frame" x="20" y="72" width="560" height="479"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <dataDetectorType key="dataDetectorTypes"/>
                                 <connections>
@@ -109,7 +108,6 @@
                                 </connections>
                             </webView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="YRT-b9-fd2" firstAttribute="top" secondItem="92d-Is-4EU" secondAttribute="bottom" id="6Qf-fM-DD6"/>
@@ -166,7 +164,6 @@
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K0G-jk-fY0">
                             <rect key="frame" x="180" y="7" width="240" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <animations/>
                             <state key="normal" title="ORT Test">
                                 <color key="titleColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
@@ -297,6 +294,9 @@
                             <constraint firstItem="rsv-H9-Dy8" firstAttribute="centerY" secondItem="dzc-st-0RJ" secondAttribute="centerY" id="KbV-Y1-hW7"/>
                             <constraint firstItem="rsv-H9-Dy8" firstAttribute="centerX" secondItem="dzc-st-0RJ" secondAttribute="centerX" id="bd8-93-LYi"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="keyPath" value="IconSmall@2x.png"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <tabBarItem key="tabBarItem" title="Medications" id="NV9-d2-5wc"/>
                 </viewController>
@@ -363,6 +363,7 @@
     </scenes>
     <resources>
         <image name="AboutInfo.png" width="400" height="168"/>
+        <image name="IconSmall@2x.png" width="400" height="168"/>
         <image name="launchLogo.png" width="400" height="168"/>
     </resources>
 </document>
