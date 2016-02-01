@@ -150,28 +150,27 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="UGx-bs-deo">
                         <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" image="ORT(alt)" id="yGO-QK-TQ3">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="zNY-rH-eiC" kind="show" id="UQP-XL-o2C"/>
+                            </connections>
+                        </barButtonItem>
                         <rightBarButtonItems>
                             <barButtonItem id="JR7-C8-mjU">
                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="5wg-8M-zNX">
                                     <rect key="frame" x="558" y="11" width="22" height="22"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="tintColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
-                                    <state key="normal">
-                                        <color key="titleColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47843137254901963" alpha="1" colorSpace="calibratedRGB"/>
-                                    </state>
                                     <connections>
                                         <segue destination="dQw-bA-RBI" kind="show" id="Yi1-xR-fVB"/>
                                     </connections>
                                 </button>
                             </barButtonItem>
-                            <barButtonItem image="Recommendations.png" style="plain" id="Oxv-tB-kDs">
+                            <barButtonItem image="Recommendations.png" id="Oxv-tB-kDs">
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="Lb8-Ek-5Jz" kind="show" id="cMQ-vO-us4"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem image="ORT(alt)" id="yGO-QK-TQ3">
-                                <connections>
-                                    <segue destination="zNY-rH-eiC" kind="show" id="UQP-XL-o2C"/>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
@@ -314,6 +313,9 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration" hint="Chart" identifier="f" label="ff">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                         <constraints>
                             <constraint firstItem="0yZ-Tn-f1h" firstAttribute="centerX" secondItem="eny-3l-IDM" secondAttribute="centerX" id="MBw-Fq-pTI"/>
                             <constraint firstItem="0yZ-Tn-f1h" firstAttribute="centerY" secondItem="eny-3l-IDM" secondAttribute="centerY" id="NrH-oG-9LF"/>
