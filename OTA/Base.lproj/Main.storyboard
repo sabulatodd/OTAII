@@ -294,6 +294,9 @@
                             <constraint firstItem="rsv-H9-Dy8" firstAttribute="centerY" secondItem="dzc-st-0RJ" secondAttribute="centerY" id="KbV-Y1-hW7"/>
                             <constraint firstItem="rsv-H9-Dy8" firstAttribute="centerX" secondItem="dzc-st-0RJ" secondAttribute="centerX" id="bd8-93-LYi"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="keyPath" value="IconSmall@2x.png"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <tabBarItem key="tabBarItem" title="Medications" id="NV9-d2-5wc"/>
                 </viewController>
@@ -355,11 +358,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qPT-WA-ErJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-26" y="-681"/>
+            <point key="canvasLocation" x="59" y="-993"/>
         </scene>
     </scenes>
     <resources>
         <image name="AboutInfo.png" width="400" height="168"/>
+        <image name="IconSmall@2x.png" width="400" height="168"/>
         <image name="launchLogo.png" width="400" height="168"/>
     </resources>
 </document>
