@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="tQU-b4-Aoq">
-                                <rect key="frame" x="143.5" y="234.5" width="313" height="131"/>
+                                <rect key="frame" x="144" y="235" width="313" height="131"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="313" id="dys-hL-awe"/>
