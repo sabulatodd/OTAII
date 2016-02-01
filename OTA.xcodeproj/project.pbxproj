@@ -14,9 +14,12 @@
 		DD19FE001C29EE3C00662030 /* RecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19FDFF1C29EE3C00662030 /* RecommendationsViewController.swift */; };
 		DD2A77FB1BC975CA00E9973D /* OrtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A77FA1BC975CA00E9973D /* OrtViewController.swift */; };
 		DD9F9BF81BAB883F00022D2E /* AboutInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9F9BF71BAB883F00022D2E /* AboutInfo.png */; };
-		DDD417BF1C5F9EB90010222E /* SubstanceAbuse.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD417BC1C5F9EB90010222E /* SubstanceAbuse.png */; };
-		DDD417C01C5F9EB90010222E /* SubstanceAbuse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD417BD1C5F9EB90010222E /* SubstanceAbuse@2x.png */; };
-		DDD417C11C5F9EB90010222E /* SubstanceAbuse@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD417BE1C5F9EB90010222E /* SubstanceAbuse@3x.png */; };
+		DDD418071C5FB2E60010222E /* Medications in Resources */ = {isa = PBXBuildFile; fileRef = DDD418011C5FB2E60010222E /* Medications */; };
+		DDD418081C5FB2E60010222E /* ORT in Resources */ = {isa = PBXBuildFile; fileRef = DDD418021C5FB2E60010222E /* ORT */; };
+		DDD418091C5FB2E60010222E /* Pain in Resources */ = {isa = PBXBuildFile; fileRef = DDD418031C5FB2E60010222E /* Pain */; };
+		DDD4180A1C5FB2E60010222E /* Recommendations in Resources */ = {isa = PBXBuildFile; fileRef = DDD418041C5FB2E60010222E /* Recommendations */; };
+		DDD4180B1C5FB2E60010222E /* Social System in Resources */ = {isa = PBXBuildFile; fileRef = DDD418051C5FB2E60010222E /* Social System */; };
+		DDD4180C1C5FB2E60010222E /* Substance Abuse in Resources */ = {isa = PBXBuildFile; fileRef = DDD418061C5FB2E60010222E /* Substance Abuse */; };
 		DDE0759B1BAB4FB200B8CCA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */; };
 		DDE0759D1BAB4FB200B8CCA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */; };
 		DDE075A01BAB4FB200B8CCA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE0759E1BAB4FB200B8CCA8 /* Main.storyboard */; };
@@ -44,9 +47,12 @@
 		DD19FDFF1C29EE3C00662030 /* RecommendationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationsViewController.swift; sourceTree = "<group>"; };
 		DD2A77FA1BC975CA00E9973D /* OrtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrtViewController.swift; sourceTree = "<group>"; };
 		DD9F9BF71BAB883F00022D2E /* AboutInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutInfo.png; sourceTree = "<group>"; };
-		DDD417BC1C5F9EB90010222E /* SubstanceAbuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SubstanceAbuse.png; path = "Substance Abuse/SubstanceAbuse.png"; sourceTree = "<group>"; };
-		DDD417BD1C5F9EB90010222E /* SubstanceAbuse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SubstanceAbuse@2x.png"; path = "Substance Abuse/SubstanceAbuse@2x.png"; sourceTree = "<group>"; };
-		DDD417BE1C5F9EB90010222E /* SubstanceAbuse@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SubstanceAbuse@3x.png"; path = "Substance Abuse/SubstanceAbuse@3x.png"; sourceTree = "<group>"; };
+		DDD418011C5FB2E60010222E /* Medications */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Medications; sourceTree = "<group>"; };
+		DDD418021C5FB2E60010222E /* ORT */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ORT; sourceTree = "<group>"; };
+		DDD418031C5FB2E60010222E /* Pain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pain; sourceTree = "<group>"; };
+		DDD418041C5FB2E60010222E /* Recommendations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Recommendations; sourceTree = "<group>"; };
+		DDD418051C5FB2E60010222E /* Social System */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Social System"; sourceTree = "<group>"; };
+		DDD418061C5FB2E60010222E /* Substance Abuse */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Substance Abuse"; sourceTree = "<group>"; };
 		DDE075971BAB4FB200B8CCA8 /* OTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE0759A1BAB4FB200B8CCA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,14 +85,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DDD417C21C5F9ECA0010222E /* icoSubstanceAbuse */ = {
+		DDD4180D1C5FB4980010222E /* TabBarIcons */ = {
 			isa = PBXGroup;
 			children = (
-				DDD417BC1C5F9EB90010222E /* SubstanceAbuse.png */,
-				DDD417BD1C5F9EB90010222E /* SubstanceAbuse@2x.png */,
-				DDD417BE1C5F9EB90010222E /* SubstanceAbuse@3x.png */,
+				DDD418011C5FB2E60010222E /* Medications */,
+				DDD418021C5FB2E60010222E /* ORT */,
+				DDD418031C5FB2E60010222E /* Pain */,
+				DDD418041C5FB2E60010222E /* Recommendations */,
+				DDD418051C5FB2E60010222E /* Social System */,
+				DDD418061C5FB2E60010222E /* Substance Abuse */,
 			);
-			name = icoSubstanceAbuse;
+			name = TabBarIcons;
 			sourceTree = "<group>";
 		};
 		DDE0758E1BAB4FB200B8CCA8 = {
@@ -119,7 +128,7 @@
 				DD19FDF51C29E50300662030 /* PainViewController.swift */,
 				DDE0759C1BAB4FB200B8CCA8 /* ViewController.swift */,
 				DDE0759E1BAB4FB200B8CCA8 /* Main.storyboard */,
-				DDD417C21C5F9ECA0010222E /* icoSubstanceAbuse */,
+				DDD4180D1C5FB4980010222E /* TabBarIcons */,
 				DDE075A41BAB4FB200B8CCA8 /* Assets.xcassets */,
 				DDE075A61BAB4FB200B8CCA8 /* LaunchScreen.storyboard */,
 				DDE075CB1BAB505B00B8CCA8 /* launchLogo.png */,
@@ -221,14 +230,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDD4180C1C5FB2E60010222E /* Substance Abuse in Resources */,
 				DDE075A81BAB4FB200B8CCA8 /* LaunchScreen.storyboard in Resources */,
+				DDD418071C5FB2E60010222E /* Medications in Resources */,
+				DDD4180A1C5FB2E60010222E /* Recommendations in Resources */,
 				DDE075CC1BAB505B00B8CCA8 /* launchLogo.png in Resources */,
-				DDD417C01C5F9EB90010222E /* SubstanceAbuse@2x.png in Resources */,
 				DD9F9BF81BAB883F00022D2E /* AboutInfo.png in Resources */,
+				DDD418091C5FB2E60010222E /* Pain in Resources */,
+				DDD418081C5FB2E60010222E /* ORT in Resources */,
 				DDE075A51BAB4FB200B8CCA8 /* Assets.xcassets in Resources */,
 				DDE075A01BAB4FB200B8CCA8 /* Main.storyboard in Resources */,
-				DDD417BF1C5F9EB90010222E /* SubstanceAbuse.png in Resources */,
-				DDD417C11C5F9EB90010222E /* SubstanceAbuse@3x.png in Resources */,
+				DDD4180B1C5FB2E60010222E /* Social System in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

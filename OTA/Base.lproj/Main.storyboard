@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
         <!--bootController-->
@@ -149,41 +150,31 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="UGx-bs-deo">
                         <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" style="done" id="mPR-72-w5O">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GFn-ja-fEU">
-                                <rect key="frame" x="20" y="7" width="133" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Recommendations">
-                                    <color key="titleColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                        <rightBarButtonItems>
+                            <barButtonItem id="JR7-C8-mjU">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="5wg-8M-zNX">
+                                    <rect key="frame" x="558" y="11" width="22" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="tintColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal">
+                                        <color key="titleColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47843137254901963" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <segue destination="dQw-bA-RBI" kind="show" id="Yi1-xR-fVB"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem image="Recommendations.png" style="plain" id="Oxv-tB-kDs">
                                 <connections>
-                                    <segue destination="Lb8-Ek-5Jz" kind="show" id="Kk3-6f-wiR"/>
+                                    <segue destination="Lb8-Ek-5Jz" kind="show" id="cMQ-vO-us4"/>
                                 </connections>
-                            </button>
-                        </barButtonItem>
-                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K0G-jk-fY0">
-                            <rect key="frame" x="180" y="7" width="240" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="ORT Test">
-                                <color key="titleColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
-                            </state>
-                            <connections>
-                                <segue destination="zNY-rH-eiC" kind="show" id="5i7-XO-dte"/>
-                            </connections>
-                        </button>
-                        <barButtonItem key="rightBarButtonItem" id="JR7-C8-mjU">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="5wg-8M-zNX">
-                                <rect key="frame" x="558" y="11" width="22" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47843137254901963" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                            </barButtonItem>
+                            <barButtonItem image="ORT(alt)" id="yGO-QK-TQ3">
                                 <connections>
-                                    <segue destination="dQw-bA-RBI" kind="show" id="Yi1-xR-fVB"/>
+                                    <segue destination="zNY-rH-eiC" kind="show" id="UQP-XL-o2C"/>
                                 </connections>
-                            </button>
-                        </barButtonItem>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="QSg-IX-MHO">
                         <autoresizingMask key="autoresizingMask"/>
@@ -227,7 +218,7 @@
                             <constraint firstItem="iOu-FC-gcg" firstAttribute="centerY" secondItem="DPD-hq-ukT" secondAttribute="centerY" id="Vsp-zm-VVn"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pain" id="ffm-Ha-fBh"/>
+                    <tabBarItem key="tabBarItem" title="Pain" image="Pain" selectedImage="Pain" id="ffm-Ha-fBh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wzz-CM-0W5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -260,7 +251,7 @@
                             <constraint firstItem="bmK-eQ-k1N" firstAttribute="centerY" secondItem="8ab-ng-oSn" secondAttribute="centerY" id="yZ6-Lq-2Vs"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Social System" id="0Pq-EU-wqA"/>
+                    <tabBarItem key="tabBarItem" title="Social System" image="Social System.png" selectedImage="Social System.png" id="0Pq-EU-wqA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Faj-bf-gIk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -294,15 +285,12 @@
                             <constraint firstItem="rsv-H9-Dy8" firstAttribute="centerY" secondItem="dzc-st-0RJ" secondAttribute="centerY" id="KbV-Y1-hW7"/>
                             <constraint firstItem="rsv-H9-Dy8" firstAttribute="centerX" secondItem="dzc-st-0RJ" secondAttribute="centerX" id="bd8-93-LYi"/>
                         </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="image" keyPath="keyPath" value="IconSmall@2x.png"/>
-                        </userDefinedRuntimeAttributes>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Medications" id="NV9-d2-5wc"/>
+                    <tabBarItem key="tabBarItem" title="Medications" image="Medications" selectedImage="Medications" id="NV9-d2-5wc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3xf-Nb-waX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1499" y="297"/>
+            <point key="canvasLocation" x="1530" y="311"/>
         </scene>
         <!--SubstanceUse-->
         <scene sceneID="7o0-FI-fBa">
@@ -331,11 +319,11 @@
                             <constraint firstItem="0yZ-Tn-f1h" firstAttribute="centerY" secondItem="eny-3l-IDM" secondAttribute="centerY" id="NrH-oG-9LF"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Substance Abuse" image="SubstanceAbuse.png" selectedImage="SubstanceAbuse.png" id="OCb-fN-sdg"/>
+                    <tabBarItem key="tabBarItem" title="Substance Abuse" image="SubstanceAbuse" selectedImage="SubstanceAbuse.png" id="OCb-fN-sdg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kSE-rU-BYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1049" y="793"/>
+            <point key="canvasLocation" x="880" y="316"/>
         </scene>
         <!--Recommendations-->
         <scene sceneID="iBK-z2-KJ6">
@@ -363,7 +351,12 @@
     </scenes>
     <resources>
         <image name="AboutInfo.png" width="400" height="168"/>
-        <image name="IconSmall@2x.png" width="400" height="168"/>
+        <image name="Medications" width="25" height="25"/>
+        <image name="ORT(alt)" width="25" height="25"/>
+        <image name="Pain" width="25" height="25"/>
+        <image name="Recommendations.png" width="25" height="25"/>
+        <image name="Social System.png" width="25" height="25"/>
+        <image name="SubstanceAbuse" width="25" height="25"/>
         <image name="SubstanceAbuse.png" width="25" height="25"/>
         <image name="launchLogo.png" width="400" height="168"/>
     </resources>
